@@ -5,23 +5,19 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="stylesheet" href="./css/styles.css">
-  <title>JS-Homework_11</title>
+  <title>Gallery</title>
 </head>
 
 <body>
   <div id="cover">
     <form class="search-form" id="search-form">
-      <div class="tb">
-        <div class="td">
           <input type="text" name="searchQuery" autocomplete="off" placeholder="Search images" />
-        </div>
-        <div class="td" id="s-cover">
           <button type="submit">
-            <div id="s-circle"></div>
+            <svg width="64" height="64">
+              <use href="./image/search.svg#search"></use>
+            </svg>
             <span></span>
           </button>
-        </div>
-      </div>
     </form>
   </div>
 

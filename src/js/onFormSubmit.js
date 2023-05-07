@@ -1,7 +1,6 @@
 import Notiflix from 'notiflix';
 import { fetchImages } from './fetchImages';
 import { createMarkup } from './createMarkup';
-// import { onLoad } from './onLoad';
 import { err } from './err';
 import SimpleLightbox from 'simplelightbox';
 import 'simplelightbox/dist/simple-lightbox.min.css';
